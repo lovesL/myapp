@@ -74,28 +74,7 @@ export async function getInitialState() {
 //     },
 //   ],
 // });
-let dynamicRoutes = [];
 
-// export function patchRoutes({ routes }) {
-//   routes[0].routes= routes[0].routes.map(res => {
-//     if (res.path === '/') {
-//       return res.routes.concat(dynamicRoutes);
-//     }
-//     return res;
-//   }).flat();
-// }
-
-// export function render(oldRender) {
-//   const menu = [
-//     {
-//       path: '/test2',
-//       name: '测试菜单2',
-//       component: Iframe,
-//     },
-//   ];
-//   dynamicRoutes = dynamicRoutes.concat(menu);
-//   oldRender();
-// }
 
 export const layout = ({ initialState }) => {
   return {
